@@ -1,0 +1,14 @@
+# initialisation of react app with vite and tailwindcss
+npm create vite @latest ./ -- --template react
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# this created problem
+npm install -D tailwindcss 
+npx tailwindcss init
+
+# instailling dependencies
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+
+or
+npm install  @react-three/fiber @react-three/drei maath react-parallax-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
